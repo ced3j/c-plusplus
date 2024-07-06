@@ -57,3 +57,51 @@ int main() {
 
     return 0;
 }
+
+
+/*
+
+
+Notlar: 
+    // Birden fazla parametreyi kullanarak çıktı vermek
+    std::cout << "Girdiginiz birinci sayi: " << sayi1 << ", ikinci sayi: " << sayi2 << std::endl;
+
+
+
+
+
+
+    static_cast<int>(sayi2) ifadesi, sayi2 değişkenini int (tamsayı) türüne dönüştürmek için kullanılır. 
+    static_cast C++'ta bir tür dönüşüm operatörüdür ve belirli bir türdeki değişkeni 
+    başka bir türe güvenli bir şekilde dönüştürmek için kullanılır.
+
+
+
+
+
+    #include <iostream>
+
+    int main() {
+        double sayi1, sayi2;
+
+        std::cout << "Bir ondalikli sayi girin: ";
+        std::cin >> sayi1;
+
+        std::cout << "Bir baska ondalikli sayi girin: ";
+        std::cin >> sayi2;
+
+        // static_cast kullanarak sayi2'yi int türüne dönüştürüyoruz
+        int tamSayi2 = static_cast<int>(sayi2);
+
+        std::cout << "Girdiginiz birinci sayi: " << sayi1 << std::endl;
+        std::cout << "Girdiginiz ikinci sayi (ondalikli): " << sayi2 << std::endl;
+        std::cout << "Ikinci sayinin tam sayi hali: " << tamSayi2 << std::endl;
+
+        return 0;
+    }
+
+
+
+
+
+ */
