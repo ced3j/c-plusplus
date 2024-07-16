@@ -7,7 +7,7 @@ using namespace std;
 
 class Employee{
     private:
-        int salary;
+        int salary; // The user cannot change this externally
     public:
         void setSalary(int x){
             salary = x;
