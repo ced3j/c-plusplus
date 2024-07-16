@@ -48,6 +48,6 @@ int main(){
 
     Car c3("test", "test3", 2000);
 
-    cout << c3 << endl;
+    cout << c3.brand << endl;
     return 0;
 }
