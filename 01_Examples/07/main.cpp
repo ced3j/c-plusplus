@@ -4,6 +4,7 @@ using namespace std;
 
 const int MAX_CONTACTS = 100;
 
+
 // Define a Contact structure
 struct Contact {
     string name;
@@ -11,10 +12,13 @@ struct Contact {
     string email;
 };
 
+
 // Function declarations
 void addContact(Contact contacts[], int &numContacts);
 void displayContacts(const Contact contacts[], int numContacts);
 void searchContact(const Contact contacts[], int numContacts);
+
+
 
 int main() {
     Contact contacts[MAX_CONTACTS];
@@ -48,6 +52,8 @@ int main() {
     return 0;
 }
 
+
+
 // Function to add a contact
 void addContact(Contact contacts[], int &numContacts) {
     if (numContacts < MAX_CONTACTS) {
@@ -62,6 +68,7 @@ void addContact(Contact contacts[], int &numContacts) {
         cout << "Contact list is full!\n";
     }
 }
+
 
 // Function to display all contacts
 void displayContacts(const Contact contacts[], int numContacts) {
